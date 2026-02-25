@@ -1,4 +1,4 @@
-.categories .section-title{
+.categories .section-title {
   width: 312px;
   margin: 0 auto;
 }
@@ -13,53 +13,39 @@
 
 .category-card {
   text-decoration: none;
+  color: var(--primary-color);
+  font-weight: var(--title-weight);
   width: 312px;
   height: 220px;
-  padding: 24px 16px;
+  padding: 24px;
   box-sizing: border-box;
   background-color: var(--background-secondary-color);
   display: block;
   border-radius: 16px;
 }
 
+.category-card.single-line {
+  padding-top: 50px;
+}
+
+.category-card.transfer img {
+  margin: 10px auto 44px;
+}
+
 .category-image {
-  width: 80px;
-  height: 80px;
-  background: url(../img/icone-pacotes-nacionais.png) no-repeat;
-  background-position: center;
-  margin: 0 100px;
-  display: inline-block;
-}
-
-.category-image.internacional {
-  background: url(../img/icone-pacotes-interacionais.png) no-repeat;
-  background-position: center;
-}
-
-.category-image.transfer {
-  background: url(../img/icone-transfer.png) no-repeat;
-  background-position: center;
-  margin-top: 17px;
-}
-
-.category-image.seguro-viagem {
-  background: url(../img/icone-seguro-viagem.png) no-repeat;
-  background-position: center;
-  margin-top: 17px;
+  margin: 0 auto;
+  display: block;
 }
 
 .category-card h3 {
-  color: var(--primary-color);
-  font-weight: var(--title-weight);
   font-size: 28px;
   text-align: center;
-  margin-top: 24px;
 }
 
 @media screen and (min-width: 768px) {
-  .categories .section-title{
-  width: 100%;
-}
+  .categories .section-title {
+    width: 100%;
+  }
 
   .categories-cards {
     display: flex;
@@ -67,7 +53,6 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  
 }
 
 @media screen and (min-width: 1024px) {
@@ -79,20 +64,11 @@
   }
   .category-card {
     width: 430px;
-
-  }
-
-  .category-image {
-    margin: 0 40%;
   }
 }
 
 @media screen and (min-width: 1440px) {
-   .category-card {
+  .category-card {
     width: 280px;
-
-  }
-  .category-image {
-    margin: 0 84px;
   }
 }
