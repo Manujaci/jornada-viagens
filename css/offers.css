@@ -17,9 +17,6 @@
 }
 
 .card header {
-  display: block;
-  position: static;
-  background-color: transparent;
   color: var(--secondary-color);
   padding: 0;
   margin-bottom: 24px;
