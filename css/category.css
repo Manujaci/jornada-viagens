@@ -9,7 +9,6 @@
 .category-card {
   text-decoration: none;
   color: var(--primary-color);
-  font-weight: var(--title-weight);
   width: 312px;
   height: 220px;
   padding: 24px;
@@ -33,7 +32,6 @@
 }
 
 .category-card h3 {
-  font-size: 28px;
   text-align: center;
 }
 
