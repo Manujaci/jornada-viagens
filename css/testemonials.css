@@ -23,7 +23,7 @@
   gap: 24px;
 }
 
-.testemonial-container .profile-content h4 {
+.testemonial-container .profile-content h3 {
   font-weight: var(--title-weight);
   font-size: 20px;
   line-height: 32px;
