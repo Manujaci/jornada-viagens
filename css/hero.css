@@ -13,16 +13,54 @@
   font-weight: var(--text-weight);
   margin: 0px;
 }
-.bottom-hero{
+.bottom-hero {
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-.bottom-hero .hero-img{
+.bottom-hero .hero-img {
   background: url(../img/bottom-hero-mobile.jpg) no-repeat;
   background-size: cover;
   height: 400px;
+}
+
+/*Travel-packages*/
+.travel-packages.hero-img {
+  height: 400px;
+  width: 100%;
+  background: url(../img/travel-packages/hero-banner-japao-mobile-tablet.jpeg)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 460px;
+  margin-bottom: 88px;
+  padding: 65px 24px;
+  box-sizing: border-box;
+}
+
+.travel-packages.hero .packages-hero-content h2 {
+  padding: 0;
+  font-size: 48px;
+  color: var(--background-primary-color);
+  font-weight: var(--title-weight);
+  text-align: left;
+}
+
+.travel-packages.hero .packages-hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--button-secundary-color);
+  border: none;
+  display: inline-block;
+}
+
+.travel-packages.hero .packages-hero-content p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  color: var(--background-primary-color);
+  margin-top: 32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -36,11 +74,22 @@
     font-size: 32px;
   }
 
-  .bottom-hero .hero-img{
-  background: url(../img/bottom-hero-tablet.jpg) no-repeat;
-  background-size: cover;
-  height: 400px;
-}
+  .bottom-hero .hero-img {
+    background: url(../img/bottom-hero-tablet.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+  /*Travel-packages*/
+  .travel-packages.hero-img {
+    padding: 210px 60px 108px;
+    box-sizing: border-box;
+    height: 620px;
+  }
+
+  .travel-packages.hero .packages-hero-content p {
+    font-size: 32px;
+    line-height: 150%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -54,15 +103,43 @@
     padding: 88px 120px;
   }
 
-  .bottom-hero .hero-img{
-  background: url(../img/bottom-hero-desktop.jpg) no-repeat;
-  background-size: cover;
-  height: 600px;
+  .bottom-hero .hero-img {
+    background: url(../img/bottom-hero-desktop.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+
+  /*Travel-packages*/
+  .travel-packages.hero-img {
+    background: url(../img/travel-packages/hero-banner-japao-desktop.jpeg) no-repeat;
+    background-size: cover;
+  }
 }
+
+@media screen and (min-width: 1440px) {
+  /*Travel-packages*/
+  .travel-packages.hero-img {
+    padding: 160px 120px;
+    box-sizing: border-box;
+    height: 620px;
+  }
+
+  .travel-packages.hero .packages-hero-content p {
+    font-size: 32px;
+    line-height: 150%;
+    width: 580px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
+  }
+
+  /*Travel-packages*/
+  .travel-packages.hero-img {
+    padding: 160px 360px;
+    box-sizing: border-box;
+    height: 620px;
   }
 }
