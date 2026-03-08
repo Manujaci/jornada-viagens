@@ -26,8 +26,12 @@
 }
 
 /*Travel-packages*/
+
+.list-links li a.active {
+  text-decoration: underline;
+}
+
 .travel-packages.hero-img {
-  height: 400px;
   width: 100%;
   background: url(../img/travel-packages/hero-banner-japao-mobile-tablet.jpeg)
     no-repeat;
@@ -63,6 +67,12 @@
   margin-top: 32px;
 }
 
+.travel-packages.bottom-hero .hero-img {
+  background: url(../img/travel-packages/travel-packages-footer-mobile.jpg)
+    no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
@@ -90,6 +100,12 @@
     font-size: 32px;
     line-height: 150%;
   }
+
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/travel-packages/travel-packages-footer-tablet.jpg)
+      no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -111,7 +127,14 @@
 
   /*Travel-packages*/
   .travel-packages.hero-img {
-    background: url(../img/travel-packages/hero-banner-japao-desktop.jpeg) no-repeat;
+    background: url(../img/travel-packages/hero-banner-japao-desktop.jpeg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/travel-packages/travel-packages-footer-desktop.jpg)
+      no-repeat;
     background-size: cover;
   }
 }

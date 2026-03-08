@@ -26,6 +26,31 @@
   grid-column: span 2;
 }
 
+/*Travel-packages*/
+.travel-packages.payments .content-title span {
+  font-size: 40px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.travel-packages.payments .content-container .image-gallery .image.first {
+  background: url(../img/travel-packages/packages-payments-gallery1-mobile.jpeg)
+    no-repeat;
+  background-size: cover;
+}
+
+.travel-packages.payments .content-container .image-gallery .image.second {
+  background: url(../img/travel-packages/packages-payments-gallery2-mobile.jpeg)
+    no-repeat;
+  background-size: cover;
+}
+
+.travel-packages.payments .content-container .image-gallery .image.thirdy {
+  background: url(../img/travel-packages/packages-payments-gallery3-mobile.jpeg)
+    no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/image-gallery1-tablet.jpg) no-repeat;
@@ -41,6 +66,25 @@
     background: url(../img/image-gallery3-tablet.jpg) no-repeat;
     background-size: cover;
   }
+
+  /*Travel-packages*/
+  .travel-packages.payments .content-container .image-gallery .image.first {
+    background: url(../img/travel-packages/packages-payments-gallery1-tablet-desk.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .travel-packages.payments .content-container .image-gallery .image.second {
+    background: url(../img/travel-packages/packages-payments-gallery2-tablet-desk.png)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .travel-packages.payments .content-container .image-gallery .image.thirdy {
+    background: url(../img/travel-packages/packages-payments-gallery3-tablet-desk.png)
+      no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -48,13 +92,12 @@
     display: flex;
     justify-content: space-between;
   }
-  .payments .content-container .text-content{
+  .payments .content-container .text-content {
     width: 384px;
-}
+  }
 
-.payments .content-container .image-gallery{
+  .payments .content-container .image-gallery {
     width: 790px;
     margin: 0;
-}
-
+  }
 }
