@@ -1,0 +1,75 @@
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  font-size: 13px;
+  color: var(--primary-color);
+  margin-bottom: 4px;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1.5px solid var(--primary-color);
+  outline: none;
+  font-size: 14px;
+  padding: 6px 0;
+  background: transparent;
+  box-sizing: border-box;
+  color: var(--button-primary-color);
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-bottom: 2px solid var(--button-primary-color);
+}
+
+.field:focus-within label {
+  color: var(--button-primary-color);
+}
+
+.field textarea {
+  border: 1px solid var(--primary-color);
+  height: 90px;
+  padding: 8px;
+  resize: none;
+}
+
+.field textarea:focus {
+  border-color: var(--button-primary-color);
+}
+
+.fields-row {
+  display: flex;
+  gap: 20px;
+}
+
+.fields-row .field {
+  flex: 1;
+}
+
+.btn-enviar {
+  display: block;
+  margin: 0 auto;
+  background: var(--button-primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: 14px 40px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  background: var(--button-secundary-color);
+}
+
+@media (max-width: 1024px) {
+  .fields-row {
+    flex-direction: column;
+  }
+}
