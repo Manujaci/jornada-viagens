@@ -73,8 +73,7 @@
 
 .contact.hero-img {
   width: 100%;
-  background: url(../img/contacts/contato-hero.jpg)
-    no-repeat;
+  background: url(../img/contacts/contato-hero.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 460px;
@@ -84,12 +83,22 @@
 }
 
 .contact.bottom-hero .hero-img {
-  background: url(../img/contacts/contato-footer-mobile.jpg)
-    no-repeat;
+  background: url(../img/contacts/contato-footer-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
+/*Blogspot*/
 
+.blog.hero-img {
+  width: 100%;
+  background: url(../img/blogspot/blog-hero-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 460px;
+  margin-bottom: 88px;
+  padding: 65px 24px;
+  box-sizing: border-box;
+}
 
 @media screen and (min-width: 768px) {
   .hero-img {
@@ -127,10 +136,16 @@
 
   /*Contact*/
   .contact.bottom-hero .hero-img {
-  background: url(../img/contacts/contato-footer.jpg)
-    no-repeat;
-  background-size: cover;
-}
+    background: url(../img/contacts/contato-footer.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  /*Blogspot*/
+
+  .blog.hero-img {
+    background: url(../img/blogspot/blog-hero.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -165,17 +180,21 @@
 
   /*Contact*/
   .contact.hero-img {
-    background: url(../img/contacts/contato-hero.jpg)
-      no-repeat;
+    background: url(../img/contacts/contato-hero.jpg) no-repeat;
     background-size: cover;
   }
 
-    .contact.bottom-hero .hero-img {
-  background: url(../img/contacts/contato-footer.jpg)
-    no-repeat;
-  background-size: cover;
-}
+  .contact.bottom-hero .hero-img {
+    background: url(../img/contacts/contato-footer.jpg) no-repeat;
+    background-size: cover;
+  }
 
+  /*Blogspot*/
+
+  .blog.hero-img {
+    background: url(../img/blogspot/blog-hero.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -192,7 +211,7 @@
     width: 580px;
   }
 
-    /*Contact*/
+  /*Contact*/
   .contact.hero-img {
     background-position: center;
   }

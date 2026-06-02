@@ -1,0 +1,75 @@
+.tokyo-conteudo figure {
+  margin: 0;
+  padding: 0;
+}
+
+.tokyo-imagem {
+  width: 312px;
+  height: 360px;
+  margin-top: 24px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tokyo-acomodacao {
+  width: 312px;
+  height: 360px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.extra-posts p {
+  margin-bottom: 16px;
+}
+
+.extra-posts img {
+  width: 312px;
+  height: 300px;
+  margin-top: 24px;
+  object-fit: cover;
+  object-position: right;
+}
+
+@media screen and (min-width: 768px) {
+  .tokyo-chegada {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .tokyo-imagem {
+    margin-top: 0;
+  }
+
+  .tokyo-chegada-texto h2 {
+    margin-top: 0;
+  }
+
+  .tokyo-acomodacao {
+    width: 100%;
+  }
+
+  .extra-posts img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .tokyo-imagem {
+    width: 100%;
+  }
+
+  .extra-posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  .extra-posts img, .extra-posts h2, .extra-posts p {
+    width: 384px;
+   
+  }
+}
